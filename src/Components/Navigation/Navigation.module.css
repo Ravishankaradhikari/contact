@@ -1,0 +1,25 @@
+.navigation{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    height: 72px;
+
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px white;
+   
+  }
+  nav ul li:hover{
+    color: rgb(221, 47, 47);
+  }
+  .login{
+    color: brown;
+    background-color: wheat;
+  }
